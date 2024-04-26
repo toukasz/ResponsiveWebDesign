@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>RGB Colours</title>
+        <style>
+        	h1 {
+            	text-align: center;
+                font-family: Baskerville;
+            }
+            p {
+            	/*Preserves no. of spaces between texts*/
+                white-space: pre;
+                font-family: monospace;
+            }
+            .textbox {
+            	max-width: 600px;
+                margin-left: auto;
+				margin-right: auto;
+            }
+            .sbox {
+            	width: 266px;
+                height: 50px;
+                margin-left: auto;
+				margin-right: auto;
+            }
+            .sample {
+            	width: 50px;
+            	height: 50px;
+                display: inline-block;
+            }
+            .sred {
+            	background-color: #FF0000;
+            }
+            .sgreen {
+            	background-color: #00FF00;
+            }
+            .sblue {
+            	background-color: #0000FF;
+            }
+			.blank {
+            	background-color: #00000000;
+            }
+            .color {
+            	margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+                height: 600px;
+            }
+            .strip {
+            	background: linear-gradient(90deg, #FF0000, #00FF00, #0000FF);
+            	margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+            	height: 50px;
+                /*border-style: dotted;*/
+            }
+            .block {
+            	background: linear-gradient(90deg, #FF0000, #00FF00, #0000FF);
+            }
+            .light1 {
+            	background: linear-gradient(#00000000, #FFFFFFFF);
+			}
+            .light2 {
+            	background: linear-gradient(90deg, #00000000, #FFFFFFFF);
+			}
+            .shadow1 {
+            	background: linear-gradient(#00000000, #000000FF);
+			}
+            .shadow2 {
+            	background: linear-gradient(#000000FF, #00000000, #FFFFFFFF);
+            }
+            .red {
+            	background-color: #FF0000;
+            }
+            .magenta {
+            	background: linear-gradient(90deg, red, blue);
+			}
+        </style>
+    </head>
+    <body>
+    	<h1>RGB Colours</h1>
+        <div class="sbox">
+        	<div class="sample sred"></div>
+            <div class="sample blank"></div>
+            <div class="sample sgreen"></div>
+            <div class="sample blank"></div>
+            <div class="sample sblue"></div>
+        </div>
+        <br>
+        <div class="textbox">
+        	<p>1.  Basic colour strip.</p>
+        </div>
+        <div class="strip"></div>
+        <br>
+        <div class="textbox">
+        	<p>2.  Combination of colour strip and whiteness.</p>
+        </div>
+        <div class="color block">
+        	<div class="color light1"></div>
+        </div>
+        <br>
+        <div class="textbox">
+        	<p>3.  Combination of colour strip and darkness.</p>
+        </div>
+        <div class="color block">
+        	<div class="color shadow1"></div>
+        </div>
+        <br>
+        <div class="textbox">
+        	<p>4.  Combination of whiteness and darkness, against red backdrop.</p>
+        </div>
+        <div class="color red">
+        	<div class="color light2">
+            	<div class="color shadow1"></div>
+            </div>
+        </div>
+        <br>
+        <div class="textbox">
+        	<p>5.  Combination of whiteness and darkness against red-to-blue backdrop.</p>
+        </div>
+        <div class="color magenta">
+        	<div class="color shadow2">
+            </div>
+        </div>
+        <br>
+    </body>
+    <footer>
+    	<p style="text-align: center;">03:23 2024:04:26</p>
+        <br>
+    </footer>
+</html>
