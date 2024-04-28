@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chicken Survey</title>
-</head>
-<body>
-    <h1 id="title">Title</h1>
-    <p id="description">a short explanation</p>
-    <form id="survey-form">
-        <label id="name-label" for="name">Enter name: 
-            <input id="name" type="text" placeholder="John Smith" required /></label>
-        <label id="email-label" for="email">Enter email: 
-            <input id="email" type="email" placeholder="JohnSmith@gmail.com" required /></label>
-        <label id="number-label" for="number">Enter number: 
-            <input id="number" type="number" min="0" max="200" placeholder="12" /></label>
-        <select id="dropdown">
-            <option>1</option>
-            <option>2</option>
-        </select>
-        <input name="0" type="radio" value="a" />
-        <input name="0" type="radio" value="b" />
-        <input type="checkbox" value="1" />
-        <input type="checkbox" value="2" />
-        <input type="checkbox" value="3" />
-        <input type="checkbox" value="4" />
-        <input type="checkbox" value="5" />
-        <textarea></textarea>
-        <input type="submit" id="submit" />
-    </form>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Chicken Survey</title>
+    </head>
+    <body>
+        <h1 id="title">Backyard Chicken Survey</h1>
+        <p id="description">Please fill out the required information and answer the following questions.</p>
+        <form id="survey-form">
+            <fieldset>
+                <legend>Information</legend>
+                <label for="name" id="name-label">Name: </label>
+                <input id="name" type="text" placeholder="John" required /><br>
+                <label for="email" id="email-label">Email: </label>
+                <input id="email" type="email" placeholder="john123@gmail.com" required /><br>
+                Are you 13yrs old or older?
+                <br><label for="age-yes"><input id="age-yes" value="age-yes" name="age" type="radio" /> Yes</label>
+                <br><label for="age-no"><input id="age-no" value="age-no" name="age" type="radio" /> No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Survey Questions</legend>
+                <label for="number" id="number-label">How many chickens do you currently have? </label>  
+                <input id="number" type="number" min="0" max="200" placeholder="12" /><br>
+
+                <label for="dropdown">Do you have a rooster (or roosters)? </label>
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br>
+
+                Why do you have Chickens?<br>
+                <input id="pets" value="pets" name="pets" type="checkbox" />
+                <label for="pets"> Pets</label><br>
+                <input id="eggs" value="eggs" name="eggs" type="checkbox" />
+                <label for="eggs"> Eggs</label><br>
+                <input id="meat" value="meat" name="meat" type="checkbox" />
+                <label for="meat"> Meat</label><br>
+                <input id="fertiliser" value="fertiliser" name="fertiliser" type="checkbox" />
+                <label for="fertiliser"> Fertiliser</label><br>
+                <input id="pest" value="pest" name="pest" type="checkbox" />
+                <label for="pest"> Pest Control</label><br>
+                <input id="exhibition" value="exhibition" name="exhibition" type="checkbox" />
+                <label for="exhibition"> Exhibition</label><br>
+                <input id="resale" value="resale" name="resale" type="checkbox" />
+                <label for="resale"> For Resale</label><br>
+                <input id="other" value="other" name="other" type="checkbox" />
+                <label for="other"> Other (please elaborate in a reply below)</label><br>
+                
+                <label for="otherText">Other: </label><br>
+                <textarea id="otherText" name="otherText" rows="4" cols="100"></textarea>
+
+                <br><input id="submit" type="submit" />
+            </fieldset>
+        </form>
+    </body>
 </html>
