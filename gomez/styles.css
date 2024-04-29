@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(0, 0, 8);
+}
+
+@font-face {
+    font-family: slkscr;
+    src: url(slkscr.ttf);
+}
+h1 {
+    font-family: slkscr;
+    color: white;
+    text-align: center;
+    font-size: 10rem;
+}
+
+.frame {
+    height: 16rem;
+    width: 15rem;
+    margin: 25rem auto;
+}
+
+.block {
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    float: left;
+}
+
+.yellow {background-color: rgb(243, 179, 69);}
+.red {background-color: rgb(198, 42, 31);}
+.brown {background-color: rgb(151, 30, 23);}
+.gray {background-color: rgb(228, 235, 214);}
+.white {background-color: rgb(255, 255, 255);}
+.black {background-color: rgb(0, 0, 8);}
+.grayer {background-color: rgb(164, 176, 146);}
+.tongue {background-color: rgb(230, 103, 129);}
