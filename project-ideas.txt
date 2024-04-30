@@ -1,0 +1,5 @@
+PROJECT IDEAS
+- CSS boxes within boxes, curved edges, containing texts, etc.
+- Fancy buttons, like on "https://www.w3schools.com/css/css3_flexbox_container.asp".
+- CSS flexboxes, a picture gallery?
+- ...
