@@ -11,25 +11,25 @@
         <form id="survey-form">
             <fieldset>
                 <legend>Information</legend>
-                <label for="name" id="name-label">Name: </label>
-                <input id="name" type="text" placeholder="John" required /><br>
-                <label for="email" id="email-label">Email: </label>
-                <input id="email" type="email" placeholder="john123@gmail.com" required /><br>
+                <label for="name" id="name-label">What is your name?</label><br>
+                <input id="name" type="text" placeholder="John" required /><br><br>
+                <label for="email" id="email-label">Enter your email:</label><br>
+                <input id="email" type="email" placeholder="john123@gmail.com" required /><br><br>
                 Are you 13yrs old or older?
                 <br><label for="age-yes"><input id="age-yes" value="age-yes" name="age" type="radio" /> Yes</label>
                 <br><label for="age-no"><input id="age-no" value="age-no" name="age" type="radio" /> No</label>
-            </fieldset>
+            </fieldset><br>
             <fieldset>
                 <legend>Survey Questions</legend>
                 <label for="number" id="number-label">How many chickens do you currently have? </label>  
-                <input id="number" type="number" min="0" max="200" placeholder="12" /><br>
+                <input id="number" type="number" min="0" max="200" placeholder="12" /><br><br>
 
                 <label for="dropdown">Do you have a rooster (or roosters)? </label>
                 <select id="dropdown" name="dropdown">
                     <option value="">(select one)</option>
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
-                </select><br>
+                </select><br><br>
 
                 Why do you have Chickens?<br>
                 <input id="pets" value="pets" name="pets" type="checkbox" />
@@ -47,13 +47,12 @@
                 <input id="resale" value="resale" name="resale" type="checkbox" />
                 <label for="resale"> For Resale</label><br>
                 <input id="other" value="other" name="other" type="checkbox" />
-                <label for="other"> Other (please elaborate in a reply below)</label><br>
-                
-                <label for="otherText">Other: </label><br>
-                <textarea id="otherText" name="otherText" rows="4" cols="100"></textarea>
 
-                <br><input id="submit" type="submit" />
+                <label for="other"> Other (please elaborate in a reply below)</label><br><br>
+                <label for="otherText">Other: </label><br>
+                <textarea id="otherText" name="otherText" rows="4"></textarea>
             </fieldset>
+            <br><input id="submit" type="submit" /><!--CENTER SUBMIT BUTTON-->
         </form>
     </body>
 </html>
