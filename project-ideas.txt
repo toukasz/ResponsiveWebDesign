@@ -1,5 +1,12 @@
 PROJECT IDEAS
-- CSS boxes within boxes, curved edges, containing texts, etc.
 - Fancy buttons, like on "https://www.w3schools.com/css/css3_flexbox_container.asp".
 - CSS flexboxes, a picture gallery?
+- Create a wiki page on "Japanese Racoon Dog (tanuki)".
+  - CSS boxes within boxes, curved edges, containing texts, etc.
 - ...
+
+FUTURE IDEAS
+- n-th dimensional Game of Life
+- exploration in cellular automatas
+- wadokei clock, real-time and converting calculator
+- ~~FEZ Pixel Art~~
