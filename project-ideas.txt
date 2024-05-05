@@ -3,6 +3,7 @@ PROJECT IDEAS
 - CSS flexboxes, a picture gallery?
 - Create a wiki page on "Japanese Racoon Dog (tanuki)".
   - CSS boxes within boxes, curved edges, containing texts, etc.
+- Implement accessibility considerations to the page.
 - ...
 
 FUTURE IDEAS
