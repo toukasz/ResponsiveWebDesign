@@ -1,10 +1,14 @@
 PROJECT IDEAS
 - Fancy buttons, like on "https://www.w3schools.com/css/css3_flexbox_container.asp".
-- CSS flexboxes, a picture gallery?
-- Create a wiki page on "Japanese Racoon Dog (tanuki)".
-  - CSS boxes within boxes, curved edges, containing texts, etc.
++ CSS flexboxes, a picture gallery?
++ Create a wiki page on "Japanese Racoon Dog (tanuki)".
+  + CSS boxes within boxes, curved edges, containing texts, etc.
 - Implement accessibility considerations to the page.
-- ...
+- Create a blog/profile
+  - Consider effects and implications of viewport
+  - Dynamic modular divs that fills out in relation to how much content it contains
+  - Include navigation bar
+  - Implement pseudo-classes and pseudo-elements
 
 FUTURE IDEAS
 - n-th dimensional Game of Life
