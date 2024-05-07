@@ -14,4 +14,8 @@ FUTURE IDEAS
 - n-th dimensional Game of Life
 - exploration in cellular automatas
 - wadokei clock, real-time and converting calculator
-- ~~FEZ Pixel Art~~
++ FEZ Pixel Art
+- Chicken Breed Selector
+- Animating pixel art of elevator
+- Bird life list frequency graph
+- Hatch tracker
