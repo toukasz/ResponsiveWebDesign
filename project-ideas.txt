@@ -21,3 +21,4 @@ FUTURE IDEAS
 - Animating pixel art of elevator
 - Bird life list frequency graph
 - Hatch tracker
+- Pseudo delivery order tracker
