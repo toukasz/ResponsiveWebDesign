@@ -12,7 +12,7 @@ PROJECT IDEAS
   - Implement pseudo-classes and pseudo-elements
 
 FUTURE IDEAS
-- n-th dimensional Game of Life
+- n-th dimensional Game of Life, in-game browser
 - exploration in cellular automatas
 - wadokei clock, real-time and converting calculator
   - visual animating display
