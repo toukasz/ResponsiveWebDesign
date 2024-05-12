@@ -22,3 +22,4 @@ FUTURE IDEAS
 - Bird life list frequency graph
 - Hatch tracker
 - Pseudo delivery order tracker
+- 4d space explorer, shape toys
