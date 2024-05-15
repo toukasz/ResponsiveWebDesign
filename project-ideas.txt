@@ -4,7 +4,7 @@ PROJECT IDEAS
 + Create a wiki page on "Japanese Racoon Dog (tanuki)".
   + CSS boxes within boxes, curved edges, containing texts, etc.
 - Implement accessibility considerations to the page.
-- Create a blog/profile
+- Create a blog/profile, Japanese 90s style
   - Consider effects and implications of viewport
   - Dynamic modular divs that fills out in relation to how much content it contains
   - Play with <nav> to creat a navigation bar, "cursor: pointer;"
