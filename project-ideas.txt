@@ -10,6 +10,7 @@ PROJECT IDEAS
   - Play with <nav> to creat a navigation bar, "cursor: pointer;"
   - HTML position property
   - Implement pseudo-classes and pseudo-elements
+  - Include some <table>, e.g. "table of contents"
 
 FUTURE IDEAS
 - n-th dimensional Game of Life, in-game browser
