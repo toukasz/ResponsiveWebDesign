@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.underline {
+    border-bottom: 1px solid rgb(163, 169, 176);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid rgb(163, 169, 176);
+}
+
+thead {
+    background-color: rgb(234, 236, 240);
+}
+
+tbody {
+    background-color: rgb(248, 249, 250)
+}
+
+img {
+    width: 200px;
+    margin-top: 10px;
+}
