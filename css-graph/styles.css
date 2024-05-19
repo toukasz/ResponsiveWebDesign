@@ -1,0 +1,37 @@
+/*Hello world!*/
+body {
+	background-color: #000000;
+	text-align: center;
+}
+
+header {
+	color: #ffffff;
+}
+
+.hldr {
+	background-color: #222222;
+	height: 100%;
+	width: 80vw;
+	margin: auto;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.numb {
+	background-color: #888888;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #ffffff;
+}
+
+.numb:nth-of-type(7n-3) {
+	float: right;
+	color: #ffffff;
+	background-color: red;
+}
+
+.disc {
+	float: right;
+	color: #ffffff;
+	margin: 15px;
+}
