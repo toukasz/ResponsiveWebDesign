@@ -24,3 +24,4 @@ FUTURE IDEAS
 - Hatch tracker
 - Pseudo delivery order tracker
 - 4d space explorer, shape toys
+- Piano "speed typer" for effective sight reading practice
