@@ -25,3 +25,6 @@ FUTURE IDEAS
 - Pseudo delivery order tracker
 - 4d space explorer, shape toys
 - Piano "speed typer" for effective sight reading practice
+  - Connection with a MIDI keyboard controller, like "guitar hero"
+  - Haptic feedback, 1-hand (left, right), 2-hands
+  - Generates meaningful sequences of notes, as well as pure random sequences
