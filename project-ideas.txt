@@ -12,6 +12,7 @@ PROJECT IDEAS
   - Implement pseudo-classes and pseudo-elements
   - Include some <table>, e.g. "table of contents"
   - Animated sections via CSS
+- Animated double and triple pendulum
 
 FUTURE IDEAS
 - n-th dimensional Game of Life, in-game browser
