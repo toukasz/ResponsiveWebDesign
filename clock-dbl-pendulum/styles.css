@@ -43,7 +43,7 @@
 }
 
 .clock-hand.hrs {
-	animation: 216000s linear infinite clockhand;
+	animation: 43200s linear infinite clockhand;
 }
 
 @keyframes clockhand {
