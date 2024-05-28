@@ -1,0 +1,155 @@
+.hina-mincho-regular {
+  font-family: "Hina Mincho", serif;
+}
+
+/*CLOCK SECTION*/
+
+#canvas {
+	background-color: lightyellow;
+	border: 1px solid brown;
+	border-radius: 10px;
+	height: 800px; width: 800px;
+	margin: auto;
+}
+
+#clock-face {
+	background-color: indianred;
+	border: 5px solid brown;
+	border-radius: 100%;
+	height: 700px; width: 700px;
+	position: relative;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clock-hand {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 18px; width: 298px;
+	position: absolute;
+	top: calc(50% - 10px); left: calc(50% - 10px);
+	transform-origin: 10px 10px;
+	transform: rotate(-90deg);
+	text-align: right;
+}
+
+.clock-hand.sec {
+	animation: 60s linear infinite clockhand;
+}
+
+.clock-hand.min {
+	animation: 3600s linear infinite clockhand;
+}
+
+.clock-hand.hrs {
+	animation: 216000s linear infinite clockhand;
+}
+
+@keyframes clockhand {
+	0% {transform: rotate(-90deg);}
+	100% {transform: rotate(450deg);}
+}
+
+.clock-hand-text {
+	font-family: monospace;
+	margin-right: 10px;
+}
+
+.clock-sign {
+	background-color: black;
+	height: 10px; width: 30px;
+	position: absolute;
+	top: calc(50% - 5px); right: 10px;
+	transform-origin: -310px 5px;
+}
+
+.clock-sign.I {transform: rotate(0deg);}
+.clock-sign.II {transform: rotate(30deg);}
+.clock-sign.III {transform: rotate(60deg);}
+.clock-sign.IV {transform: rotate(90deg);}
+.clock-sign.V {transform: rotate(120deg);}
+.clock-sign.VI {transform: rotate(150deg);}
+.clock-sign.VII {transform: rotate(180deg);}
+.clock-sign.VIII {transform: rotate(210deg);}
+.clock-sign.IX {transform: rotate(240deg);}
+.clock-sign.X {transform: rotate(270deg);}
+.clock-sign.XI {transform: rotate(300deg);}
+.clock-sign.XII {transform: rotate(330deg);}
+
+
+/*PENDULUM SECTION*/
+
+#pendulum-i {
+	background: indianred;
+	height: 20px; width: 350px;
+	border: 1px solid brown;
+	border-radius: 10px;
+	position: relative;
+	top: calc(50% - 10px); left: calc(50% - 10px);
+	animation: 5s ease-in-out infinite pendulum-i;
+	transform-origin: 10px 10px;
+}
+
+#pendulum-ii {
+	background: white;
+	height: 20px; width: 200px;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	left: calc(100% - 10px);
+	animation: 4s ease-in-out infinite pendulum-ii;
+	transform-origin: 10px 10px;
+}
+
+#pendulum-iii {
+	background: black;
+	height: 20px; width: 150px;
+	border: 1px solid white;
+	border-radius: 10px;
+	position: absolute;
+	left: calc(100% - 10px);
+	animation: 3s ease-in-out infinite pendulum-ii;
+	transform-origin: 10px 10px;
+}
+
+@keyframes pendulum-i {
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(180deg);}
+	100% {transform: rotate(0deg);}
+}
+
+@keyframes pendulum-ii {
+	0% {transform: rotate(180deg);}
+	50% {transform: rotate(-180deg);}
+	100% {transform: rotate(180deg);}
+}
+
+/*FOOTER*/
+
+p {
+	text-align: center;
+	font-family: "Hina Mincho", serif;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+div a {
+	color: black;
+	font-family: "Hina Mincho", serif;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	position: absolute;
+	right: 10px;
+	bottom: 12px;
+	padding: 0 5px 0 5px;
+}
+
+div a:hover {
+	color: lightyellow;
+	background-color: brown;
+}
