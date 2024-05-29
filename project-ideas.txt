@@ -30,3 +30,4 @@ FUTURE IDEAS
   - Connection with a MIDI keyboard controller, like "guitar hero"
   - Haptic feedback, 1-hand (left, right), 2-hands
   - Generates meaningful sequences of notes, as well as pure random sequences
+- Japanese stenographic typer layout, and versions without "chording"
