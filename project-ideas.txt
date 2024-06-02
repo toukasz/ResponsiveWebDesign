@@ -13,6 +13,7 @@ PROJECT IDEAS
   - Include some <table>, e.g. "table of contents"
   - Animated sections via CSS
 - Animated double and triple pendulum
+- Compound interest calculator + table
 
 FUTURE IDEAS
 - n-th dimensional Game of Life, in-game browser
