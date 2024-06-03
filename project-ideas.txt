@@ -1,18 +1,18 @@
 PROJECT IDEAS
-- Fancy buttons, like on "https://www.w3schools.com/css/css3_flexbox_container.asp".
-+ CSS flexboxes, a picture gallery?
-+ Create a wiki page on "Japanese Racoon Dog (tanuki)".
-  + CSS boxes within boxes, curved edges, containing texts, etc.
-- Implement accessibility considerations to the page.
-- Create a blog/profile, Japanese 90s style
-  - Consider effects and implications of viewport
-  - Dynamic modular divs that fills out in relation to how much content it contains
-  - Play with <nav> to creat a navigation bar, "cursor: pointer;"
-  - HTML position property
+x Fancy buttons, like on "https://www.w3schools.com/css/css3_flexbox_container.asp".
+x CSS flexboxes, a picture gallery?
+x Create a wiki page on "Japanese Racoon Dog (tanuki)".
+  x CSS boxes within boxes, curved edges, containing texts, etc.
+- Implement accessibility considerations
+x Create a blog/profile, Japanese 90s style
+  x Consider effects and implications of viewport
+  x Dynamic modular divs that fills out in relation to how much content it contains
+  x Play with <nav> to creat a navigation bar, "cursor: pointer;"
+  x HTML position property
   - Implement pseudo-classes and pseudo-elements
-  - Include some <table>, e.g. "table of contents"
-  - Animated sections via CSS
-- Animated double and triple pendulum
+  x Include some <table>, e.g. "table of contents"
+  x Animated sections via CSS
+x Animated double and triple pendulum
 - Compound interest calculator + table
 
 FUTURE IDEAS
@@ -20,7 +20,7 @@ FUTURE IDEAS
 - exploration in cellular automatas
 - wadokei clock, real-time and converting calculator
   - visual animating display
-+ FEZ Pixel Art
+x FEZ Pixel Art
 - Chicken Breed Selector
 - Animating pixel art of elevator
 - Bird life list frequency graph
