@@ -14,7 +14,7 @@ x Create a blog/profile, Japanese 90s style
   x Animated sections via CSS
 x Animated double and triple pendulum
 - Compound interest calculator + table
-- custom layout for both Colemack DS and Japanese 
+- custom layout for both Colemack DS and Japanese, predraw map and research recommendations
 
 FUTURE IDEAS
 - n-th dimensional Game of Life, in-game browser
