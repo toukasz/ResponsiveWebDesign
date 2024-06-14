@@ -14,11 +14,11 @@ x Create a blog/profile, Japanese 90s style
   x Animated sections via CSS
 x Animated double and triple pendulum
 - Compound interest calculator + table
-- custom layout for both Colemack DS and Japanese, predraw map and research recommendations
+x custom layout for both Colemack DS and Japanese, predraw map and research recommendations
 
 FUTURE IDEAS
-- n-th dimensional Game of Life, in-game browser
-- exploration in cellular automatas
+x n-th dimensional Game of Life, in-game browser
+x exploration in cellular automatas
 - wadokei clock, real-time and converting calculator
   - visual animating display
 x FEZ Pixel Art
@@ -32,5 +32,5 @@ x FEZ Pixel Art
   - Connection with a MIDI keyboard controller, like "guitar hero"
   - Haptic feedback, 1-hand (left, right), 2-hands
   - Generates meaningful sequences of notes, as well as pure random sequences
-- Japanese stenographic typer layout, and versions without "chording"
-- Colemak DH layout in style of Japanese numb pad keyboard
+x Japanese stenographic typer layout, and versions without "chording"
+x Colemak DH layout in style of Japanese numb pad keyboard
